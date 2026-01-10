@@ -17,13 +17,6 @@ A Tree is a hierarchical data structure made up of nodes connected by edges. It 
 - Heap  
 - Trie  
 
-## Traversal Methods
-Tree traversal means visiting each node once in a specific order to process or read its data.
-- Inorder  
-- Preorder  
-- Postorder  
-- Level Order  
-
 ## Real-Life Examples
 - File system folders  
 - HTML DOM  
