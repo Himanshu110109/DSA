@@ -50,9 +50,9 @@ if __name__ == "__main__":
     num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     target = 8
 
-    r3 = binary_search_recursive(num_list, target, 0, len(num_list))
-    print(f"{target} found at {r3} using recursive binary search")
-    result = binary_search(num_list, target)
-    print(f"{target} found at {result} using binary search")
-    r2 = linear_search(num_list, target)
-    print(f"{target} found at {r2} using linear search")
+    r1 = binary_search_recursive(num_list, target, 0, len(num_list))
+    print(f"{target} found at {r1} using recursive binary search")
+    r2 = binary_search(num_list, target)
+    print(f"{target} found at {r2} using binary search")
+    r3 = linear_search(num_list, target)
+    print(f"{target} found at {r3} using linear search")
